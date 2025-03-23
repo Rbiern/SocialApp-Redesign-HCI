@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/camera.png</file>
+        <file>images/HomePage.png</file>
+        <file>images/LikesPage.png</file>
+        <file>images/OtherUsersProfile.png</file>
+        <file>images/SearchPage.png</file>
+        <file>images/StoryPage.png</file>
+        <file>images/UserProfile.png</file>
+    </qresource>
+</RCC>
