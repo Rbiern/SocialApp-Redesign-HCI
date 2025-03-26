@@ -7,5 +7,18 @@
         <file>images/SearchPage.png</file>
         <file>images/StoryPage.png</file>
         <file>images/UserProfile.png</file>
+        <file>images/Alphabetical Order.png</file>
+        <file>images/Recent order.png</file>
+        <file>images/Edit.png</file>
+        <file>images/Receipts Control Center Unread.png</file>
+        <file>images/Receipts Control Center Sort.png</file>
+        <file>images/Alphabetic Edit.png</file>
+        <file>images/Alphabetical Order Sort1.png</file>
+        <file>images/Faviorite Sort1.png</file>
+        <file>images/Favorite Edit.png</file>
+        <file>images/Recent Edit.png</file>
+        <file>images/Recent Order Sort1.png</file>
+        <file>images/Receipts Control Center.png</file>
+        <file>images/Favorite.png</file>
     </qresource>
 </RCC>
