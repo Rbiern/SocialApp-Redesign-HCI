@@ -21,4 +21,9 @@
         <file>images/Receipts Control Center.png</file>
         <file>images/Favorite.png</file>
     </qresource>
+    <qresource prefix="/">
+        <file>images/qr1.png</file>
+        <file>images/qr2.png</file>
+        <file>images/qr3.png</file>
+    </qresource>
 </RCC>

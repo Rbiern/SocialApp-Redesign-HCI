@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <queue>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -44,18 +45,23 @@ void MainWindow::handlePageChange()
     int currentIndex = ui->stackedWidget->currentIndex();
 
 
+
     //returning to previous page
-    if (name == "pushButton_6"|| name == "pushButton_19" || name == "pushButton_21" || name == "pushButton_22"||name == "pushButton_28"||name == "pushButton_38") {
-        ui->stackedWidget->setCurrentIndex(previousPageIndex);
+    if (name == "pushButton_78" || name == "pushButton_77" || name == "pushButton_74" || name == "pushButton_6"|| name == "pushButton_19" || name == "pushButton_21" || name == "pushButton_22"||name == "pushButton_28"||name == "pushButton_38") {
+        ui->stackedWidget->setCurrentIndex(previousPageIndex.front());
+        previousPageIndex.pop_front();
         return;
     }
-    previousPageIndex = currentIndex;
+
+    if (previousPageIndex.empty() || previousPageIndex.front() != currentIndex) {
+        previousPageIndex.push_front(currentIndex);
+    }
 
     //Cat profile
     if (name == "pushButton") {
         ui->stackedWidget->setCurrentWidget(ui->page_6);
     //Search Page
-    } else if (name == "pushButton_2"|| name == "pushButton_8" || name == "pushButton_15" ||name == "pushButton_22"|| name == "pushButton_24" ) {
+    } else if (name == "pushButton_8" || name == "pushButton_15" ||name == "pushButton_22"|| name == "pushButton_24" ) {
         ui->stackedWidget->setCurrentWidget(ui->page_5);
     //HomePage
     } else if (name == "pushButton_7"|| name == "pushButton_14"|| name == "pushButton_23"|| name == "pushButton_36" || name == "pushButton_39" || name == "pushButton_40"
@@ -129,6 +135,20 @@ void MainWindow::handlePageChange()
     else if (name == "pushButton_50" ||name == "pushButton_72") {
         ui->stackedWidget->setCurrentWidget(ui->page_19);
 
+    }
+    //Search
+    else if (name == "pushButton_2"){
+        ui->stackedWidget->setCurrentWidget(ui->page_4);
+    }
+    //Search
+    else if (name == "pushButton_73"){
+        ui->stackedWidget->setCurrentWidget(ui->page_21);
+    }
+    else if (name == "pushButton_75" || name == "pushButton_78"){
+        ui->stackedWidget->setCurrentWidget(ui->page_22);
+    }
+    else if (name == "pushButton_76"){
+        ui->stackedWidget->setCurrentWidget(ui->page_23);
     }
 }
 
