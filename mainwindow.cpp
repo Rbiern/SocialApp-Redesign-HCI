@@ -61,7 +61,7 @@ void MainWindow::handlePageChange()
     if (name == "pushButton") {
         ui->stackedWidget->setCurrentWidget(ui->page_6);
     //Search Page
-    } else if (name == "pushButton_8" || name == "pushButton_15" ||name == "pushButton_22"|| name == "pushButton_24" ) {
+    } else if (name == "pushButton_8" ||name == "pushButton_22"|| name == "pushButton_24" ) {
         ui->stackedWidget->setCurrentWidget(ui->page_5);
     //HomePage
     } else if (name == "pushButton_7"|| name == "pushButton_14"|| name == "pushButton_23"|| name == "pushButton_36" || name == "pushButton_39" || name == "pushButton_40"
@@ -137,7 +137,7 @@ void MainWindow::handlePageChange()
 
     }
     //Search
-    else if (name == "pushButton_2"){
+    else if (name == "pushButton_2" || name == "pushButton_15"){
         ui->stackedWidget->setCurrentWidget(ui->page_4);
     }
     //Search
