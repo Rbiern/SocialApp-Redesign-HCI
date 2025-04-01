@@ -1,6 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include <deque>  // Required for dqueue
 #include <QMainWindow>
 
 namespace Ui {
@@ -16,7 +16,7 @@ public:
     ~MainWindow();
 
 private:
-    int previousPageIndex = 0;
+    std::deque<int> previousPageIndex;
     Ui::MainWindow *ui;
 private slots:
     void handlePageChange();
