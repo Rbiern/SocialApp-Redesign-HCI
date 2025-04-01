@@ -47,7 +47,8 @@ void MainWindow::handlePageChange()
 
 
     //returning to previous page
-    if (name == "pushButton_78" || name == "pushButton_77" || name == "pushButton_74" || name == "pushButton_6"|| name == "pushButton_19" || name == "pushButton_21" || name == "pushButton_22"||name == "pushButton_28"||name == "pushButton_38") {
+    if (name == "pushButton_78" || name == "pushButton_77" || name == "pushButton_74" || name == "pushButton_6"|| name == "pushButton_19" || name == "pushButton_21" || name == "pushButton_22"
+        ||name == "pushButton_28"||name == "pushButton_38") {
         ui->stackedWidget->setCurrentIndex(previousPageIndex.front());
         previousPageIndex.pop_front();
         return;
@@ -58,25 +59,29 @@ void MainWindow::handlePageChange()
     }
 
     //Cat profile
-    if (name == "pushButton") {
+    if (name == "pushButton" || name == "pushButton_93" || name == "pushButton_100") {
         ui->stackedWidget->setCurrentWidget(ui->page_6);
     //Search Page
     } else if (name == "pushButton_8" ||name == "pushButton_22"|| name == "pushButton_24" ) {
         ui->stackedWidget->setCurrentWidget(ui->page_5);
     //HomePage
     } else if (name == "pushButton_7"|| name == "pushButton_14"|| name == "pushButton_23"|| name == "pushButton_36" || name == "pushButton_39" || name == "pushButton_40"
-               || name == "pushButton_41" || name == "pushButton_42" || name == "pushButton_43") {
+               || name == "pushButton_41" || name == "pushButton_42" || name == "pushButton_43" || name == "pushButton_81" || name == "pushButton_88" || name == "pushButton_95"
+                || name == "pushButton_102") {
         ui->stackedWidget->setCurrentWidget(ui->page);
     }
     //Camera Page
-    else if (name == "pushButton_3"|| name == "pushButton_9"|| name == "pushButton_16" || name == "pushButton_25") {
+    else if (name == "pushButton_3"|| name == "pushButton_9"|| name == "pushButton_16" || name == "pushButton_25" || name == "pushButton_83" || name == "pushButton_90"
+             || name == "pushButton_97"|| name == "pushButton_104") {
         ui->stackedWidget->setCurrentWidget(ui->page_7);
     }//Story Page
-    else if (name == "pushButton_4"|| name == "pushButton_10"|| name == "pushButton_17" || name == "pushButton_26") {
+    else if (name == "pushButton_4"|| name == "pushButton_10"|| name == "pushButton_17" || name == "pushButton_26" || name == "pushButton_84" || name == "pushButton_91"
+             || name == "pushButton_98" || name == "pushButton_105") {
         ui->stackedWidget->setCurrentWidget(ui->page_5);
     }
     //User Profile
-    else if (name == "pushButton_5"|| name == "pushButton_11"|| name == "pushButton_18" || name == "pushButton_22"|| name == "pushButton_27") {
+    else if (name == "pushButton_5"|| name == "pushButton_11"|| name == "pushButton_18" || name == "pushButton_22"|| name == "pushButton_27" || name == "pushButton_85"
+             || name == "pushButton_92" || name == "pushButton_99" || name == "pushButton_106" || name == "pushButton_79" || name == "pushButton_86") {
         ui->stackedWidget->setCurrentWidget(ui->page_3);
     }
     //LikesPage
@@ -137,7 +142,7 @@ void MainWindow::handlePageChange()
 
     }
     //Search
-    else if (name == "pushButton_2" || name == "pushButton_15"){
+    else if (name == "pushButton_2" || name == "pushButton_15" || name == "pushButton_82" || name == "pushButton_89" || name == "pushButton_96" || name == "pushButton_103"){
         ui->stackedWidget->setCurrentWidget(ui->page_4);
     }
     //Search
@@ -149,6 +154,22 @@ void MainWindow::handlePageChange()
     }
     else if (name == "pushButton_76"){
         ui->stackedWidget->setCurrentWidget(ui->page_23);
+
+    //Ruffle's Following page
+    }else if (name == "pushButton_80" || name == "pushButton_108" || name == "pushButton_111"|| name == "pushButton_112"){
+        ui->stackedWidget->setCurrentWidget(ui->page_25);
+    }
+    //Ruffle's Follower page
+    else if (name == "pushButton_87" || name == "pushButton_107"|| name == "pushButton_111"){
+        ui->stackedWidget->setCurrentWidget(ui->page_24);
+    }
+    //Sabansoke's Following page
+    else if (name == "pushButton_110" || name == "pushButton_94"){
+        ui->stackedWidget->setCurrentWidget(ui->page_27);
+    }
+    //Sabansoke's Follower page
+    else if (name == "pushButton_10" || name == "pushButton_109"|| name == "pushButton_101"){
+        ui->stackedWidget->setCurrentWidget(ui->page_26);
     }
 }
 

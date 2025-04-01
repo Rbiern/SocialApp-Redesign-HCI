@@ -20,6 +20,10 @@
         <file>images/Recent Order Sort1.png</file>
         <file>images/Receipts Control Center.png</file>
         <file>images/Favorite.png</file>
+        <file>images/Ruffles followers.png</file>
+        <file>images/Ruffles following.png</file>
+        <file>images/Sabansoke Followers.png</file>
+        <file>images/sabansoke following.png</file>
     </qresource>
     <qresource prefix="/">
         <file>images/qr1.png</file>
