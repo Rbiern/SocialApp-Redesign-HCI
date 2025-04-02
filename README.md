@@ -15,14 +15,6 @@ Rather than focusing solely on visual aesthetics, this redesign emphasizes user-
 Downloaded Qt Creater IDE: https://www.qt.io/download-dev
 
 ---
-### Steps to Build and Run
-
-
-```markdown
-git clone https://github.com/Rbiern/SocialApp-Redesign-HCI.git
-cd your-repo-name
-```
----
 
 ### Steps to Build and Run
 
@@ -51,9 +43,8 @@ cd your-repo-name
 The social media platform **Instagram** has a large scope, so for this project, we focused on redesigning its **core features**.  
 Here is a walkthrough to help you navigate through the redesigned app.
 
-![Filters]()
-![Messages Page]()
-![Stories]()
+![Filters](images/msg.gif)
+![Filters](images/filter.gif)
+![Filters](images/stories.gif)
 
 ## 
-
