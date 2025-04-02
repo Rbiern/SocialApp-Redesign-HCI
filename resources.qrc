@@ -32,6 +32,12 @@
         <file>images/camera2-1.png</file>
         <file>images/Art Deco Favorite filter.png</file>
         <file>images/Favorite Filter.png</file>
+        <file>images/left1.png</file>
+        <file>images/left2.png</file>
+        <file>images/left3.png</file>
+        <file>images/right1.png</file>
+        <file>images/right2.png</file>
+        <file>images/right3.png</file>
     </qresource>
     <qresource prefix="/">
         <file>images/qr1.png</file>

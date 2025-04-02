@@ -5,11 +5,30 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
+    , scrollTimer(new QTimer(this))
 {
     ui->setupUi(this);
     ui->stackedWidget->setCurrentIndex(0);
 
+    originalImage.append(QPixmap(":/images/images/StoryPage.png"));
+    scrollImages.append(QPixmap(":/images/images/right1.png"));
+    scrollImages.append(QPixmap(":/images/images/right2.png"));
+    scrollImages.append(QPixmap(":/images/images/right3.png"));
+
+    scrollImages2.append(QPixmap(":/images/images/left1.png"));
+    scrollImages2.append(QPixmap(":/images/images/left2.png"));
+    scrollImages2.append(QPixmap(":/images/images/left3.png"));
+
     QList<QPushButton*> buttons = this->findChildren<QPushButton*>();
+
+    connect(scrollTimer, &QTimer::timeout, this, &MainWindow::onImageScroll);
+
+    connect(ui->pushButton_155, &QPushButton::pressed, this, &MainWindow::onButtonPressed);
+    connect(ui->pushButton_155, &QPushButton::released, this, &MainWindow::onButtonReleased);
+    connect(ui->pushButton_156, &QPushButton::pressed, this, &MainWindow::onButtonPressed);
+    connect(ui->pushButton_156, &QPushButton::released, this, &MainWindow::onButtonReleased);
+
+
 
     QStringList excludedNames = {
         "pushButton_32", "pushButton_33", "pushButton_34", "pushButton_35",
@@ -33,6 +52,41 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+void MainWindow::onButtonPressed()
+{
+    QPushButton* senderButton = qobject_cast<QPushButton*>(sender());
+    if (senderButton == ui->pushButton_155) {
+        scrollDirection = 1;
+    } else if (senderButton == ui->pushButton_156) {
+        scrollDirection = 2;
+    }
+
+    scrollTimer->start(300);
+}
+
+void MainWindow::onButtonReleased()
+{
+    scrollTimer->stop();
+    scrollIndex = 0;
+    ui->label_5->setPixmap(originalImage[0]);
+
+}
+
+void MainWindow::onImageScroll()
+{
+    switch (scrollDirection) {
+    case 1:
+        scrollIndex = (scrollIndex + 1) % scrollImages.size();
+        ui->label_5->setPixmap(scrollImages[scrollIndex]);
+        break;
+    case 2:
+        scrollIndex = (scrollIndex + 1) % scrollImages2.size();
+        ui->label_5->setPixmap(scrollImages2[scrollIndex]);
+        break;
+    default:
+        break;
+    }
 }
 
 void MainWindow::handlePageChange()
