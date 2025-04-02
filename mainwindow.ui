@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>32</number>
+     <number>39</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QLabel" name="label">
@@ -135,6 +135,299 @@
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="page_38">
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>-7</y>
+        <width>391</width>
+        <height>851</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/images/dialog keyboard plus popup.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_196">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>460</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_197">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_201">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>371</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_39">
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>391</width>
+        <height>851</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/images/dialog plus popup.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_198">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>770</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_199">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_200">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>770</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_40">
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>411</width>
+        <height>851</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/images/camera2-2.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_202">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>610</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_203">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>610</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_204">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>790</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_205">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>690</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_206">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>40</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_213">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>351</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_41">
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>401</width>
+        <height>851</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/images/camera2-1.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_207">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>610</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_210">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>700</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_211">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>40</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_212">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>790</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_214">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>351</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="page_35">
      <widget class="QLabel" name="label_35">
       <property name="geometry">
@@ -204,6 +497,19 @@
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_183">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>110</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_36">
      <widget class="QLabel" name="label_36">
@@ -238,10 +544,23 @@
      <widget class="QPushButton" name="pushButton_162">
       <property name="geometry">
        <rect>
-        <x>60</x>
+        <x>70</x>
         <y>770</y>
-        <width>321</width>
+        <width>311</width>
         <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_194">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>770</y>
+        <width>41</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
@@ -283,9 +602,22 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>50</y>
+        <y>60</y>
         <width>371</width>
-        <height>441</height>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_195">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>451</y>
+        <width>41</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
@@ -988,6 +1320,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_190">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_17">
      <widget class="QLabel" name="label_17">
@@ -1167,6 +1512,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_191">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_19">
      <widget class="QLabel" name="label_19">
@@ -1339,6 +1697,19 @@ QPushButton:hover {
         <x>260</x>
         <y>40</y>
         <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_192">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
         <height>41</height>
        </rect>
       </property>
@@ -1590,6 +1961,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_186">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_12">
      <widget class="QLabel" name="label_12">
@@ -1699,6 +2083,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_187">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_13">
      <widget class="QLabel" name="label_13">
@@ -1769,6 +2166,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_188">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_14">
      <widget class="QLabel" name="label_14">
@@ -1819,6 +2229,32 @@ QPushButton:hover {
         <x>140</x>
         <y>50</y>
         <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_189">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>110</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_193">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>50</y>
+        <width>111</width>
         <height>41</height>
        </rect>
       </property>
@@ -1935,6 +2371,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_185">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_8">
      <widget class="QLabel" name="label_8">
@@ -2037,6 +2486,19 @@ QPushButton:hover {
         <x>270</x>
         <y>750</y>
         <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_184">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>301</width>
         <height>41</height>
        </rect>
       </property>
@@ -2322,9 +2784,9 @@ QPushButton:hover {
      <widget class="QPushButton" name="pushButton_73">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>340</x>
         <y>50</y>
-        <width>21</width>
+        <width>31</width>
         <height>31</height>
        </rect>
       </property>
@@ -3206,7 +3668,7 @@ QPushButton:hover {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="resources.qrc">:/images/images/camera2-1.png</pixmap>
+       <pixmap resource="resources.qrc">:/images/images/camera2-3.png</pixmap>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_130">
@@ -3268,6 +3730,32 @@ QPushButton:hover {
         <y>690</y>
         <width>51</width>
         <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_208">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>600</y>
+        <width>31</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_209">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>600</y>
+        <width>51</width>
+        <height>61</height>
        </rect>
       </property>
       <property name="text">

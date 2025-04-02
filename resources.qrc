@@ -38,9 +38,13 @@
         <file>images/right1.png</file>
         <file>images/right2.png</file>
         <file>images/right3.png</file>
-        <file>images/dialog keyboard.png</file>
         <file>images/dialog.png</file>
         <file>images/No results.png</file>
+        <file>images/camera2-2.png</file>
+        <file>images/camera2-3.png</file>
+        <file>images/dialog keyboard.png</file>
+        <file>images/dialog keyboard plus popup.png</file>
+        <file>images/dialog plus popup.png</file>
     </qresource>
     <qresource prefix="/">
         <file>images/qr1.png</file>
