@@ -102,7 +102,7 @@ void MainWindow::handlePageChange()
 
     //returning to previous page
     if (name == "pushButton_78" || name == "pushButton_77" || name == "pushButton_74" || name == "pushButton_6"|| name == "pushButton_19" || name == "pushButton_21" || name == "pushButton_22"
-        ||name == "pushButton_28"||name == "pushButton_38") {
+        ||name == "pushButton_38") {
         ui->stackedWidget->setCurrentIndex(previousPageIndex.front());
         previousPageIndex.pop_front();
         return;
@@ -119,9 +119,10 @@ void MainWindow::handlePageChange()
     } else if (name == "pushButton_8" ||name == "pushButton_22"|| name == "pushButton_24" ) {
         ui->stackedWidget->setCurrentWidget(ui->page_5);
     //HomePage
-    } else if (name == "pushButton_7"|| name == "pushButton_14"|| name == "pushButton_23"|| name == "pushButton_36" || name == "pushButton_39" || name == "pushButton_40"
+    } else if (name == "pushButton_7"|| name == "pushButton_14"|| name == "pushButton_23"||name == "pushButton_28"|| name == "pushButton_36" || name == "pushButton_39" || name == "pushButton_40"
                || name == "pushButton_41" || name == "pushButton_42" || name == "pushButton_43" || name == "pushButton_81" || name == "pushButton_88" || name == "pushButton_95"
-                || name == "pushButton_102" || name == "pushButton_117" || name == "pushButton_125"|| name == "pushButton_126" || name == "pushButton_129"|| name == "pushButton_132" ) {
+                || name == "pushButton_102" || name == "pushButton_117" || name == "pushButton_125"|| name == "pushButton_126" || name == "pushButton_129"
+               || name == "pushButton_132"||name == "pushButton_160" ) {
         ui->stackedWidget->setCurrentWidget(ui->page);
     }
     //Camera Page
@@ -144,32 +145,33 @@ void MainWindow::handlePageChange()
     else if (name == "pushButton_12 "||name == "pushButton_13"||name == "pushButton_20") {
         ui->stackedWidget->setCurrentWidget(ui->page_2);
     }
-    //Pressing Message
-    else if (name == "pushButton_37" ||name == "pushButton_67") {
+    //Pressing Message from homepage
+    else if (name == "pushButton_37" ||name == "pushButton_67" ||name == "pushButton_161" ||name == "pushButton_163" ||name == "pushButton_181") {
         ui->stackedWidget->setCurrentWidget(ui->page_8);
     }
     //Pressing Sort
-    else if (name == "pushButton_29" ||name == "pushButton_53") {
+    else if (name == "pushButton_29" ||name == "pushButton_53" ||name == "pushButton_157" ||name == "pushButton_156") {
         ui->stackedWidget->setCurrentWidget(ui->page_9);
     }
     //Pressing Edit
-    else if (name == "pushButton_30") {
+    else if (name == "pushButton_30"||name == "pushButton_158") {
         ui->stackedWidget->setCurrentWidget(ui->page_13);
     }
     //Pressing Unread
-    else if (name == "pushButton_31" ||name == "pushButton_46" ||name == "pushButton_49" ||name == "pushButton_52" ||name == "pushButton_54" ||name == "pushButton_70") {
+    else if (name == "pushButton_31" ||name == "pushButton_46" ||name == "pushButton_49" ||name == "pushButton_52" ||name == "pushButton_54" ||name == "pushButton_70"
+             ||name == "pushButton_159" ||name == "pushButton_166" ||name == "pushButton_180") {
         ui->stackedWidget->setCurrentWidget(ui->page_14);
     }
     //Pressing Alphabet
-    else if (name == "pushButton_32" ||name == "pushButton_55" ||name == "pushButton_59" ||name == "pushButton_63" ) {
+    else if (name == "pushButton_32" ||name == "pushButton_55" ||name == "pushButton_59" ||name == "pushButton_63" ||name == "pushButton_182" ) {
         ui->stackedWidget->setCurrentWidget(ui->page_10);
     }
     //Pressing Recent
-    else if (name == "pushButton_33" ||name == "pushButton_56" ||name == "pushButton_60" ||name == "pushButton_64") {
+    else if (name == "pushButton_33" ||name == "pushButton_56" ||name == "pushButton_60" ||name == "pushButton_64" ||name == "pushButton_179") {
         ui->stackedWidget->setCurrentWidget(ui->page_11);
     }
     //Pressing Favourites
-    else if (name == "pushButton_34" ||name == "pushButton_57" ||name == "pushButton_61" ||name == "pushButton_65") {
+    else if (name == "pushButton_34" ||name == "pushButton_57" ||name == "pushButton_61" ||name == "pushButton_65" ||name == "pushButton_165") {
         ui->stackedWidget->setCurrentWidget(ui->page_12);
     }
     //Alphabetic Edit
@@ -256,6 +258,17 @@ void MainWindow::handlePageChange()
     else if (name == "pushButton_127"){
         ui->stackedWidget->setCurrentWidget(ui->page_32);
     }
+    //Dialog
+    else if (name == "pushButton_164" ||name == "pushButton_167" ||name == "pushButton_168" ||name == "pushButton_169" ||name == "pushButton_170"
+             ||name == "pushButton_171" ||name == "pushButton_172" ||name == "pushButton_173" ||name == "pushButton_174" ||name == "pushButton_175"
+             ||name == "pushButton_176" ||name == "pushButton_177" ||name == "pushButton_178"){
+        ui->stackedWidget->setCurrentWidget(ui->page_36);
+    }
+    //Dialog keyboard
+    else if (name == "pushButton_162"){
+        ui->stackedWidget->setCurrentWidget(ui->page_37);
+    }
+
 }
 
 
