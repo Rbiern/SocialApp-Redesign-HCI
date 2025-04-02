@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>39</number>
+     <number>22</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QLabel" name="label">
@@ -1263,6 +1263,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_221">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>11</y>
+        <width>371</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_16">
      <widget class="QLabel" name="label_16">
@@ -1455,6 +1468,19 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_222">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>371</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_18">
      <widget class="QLabel" name="label_18">
@@ -1642,6 +1668,19 @@ QPushButton:hover {
 QPushButton:hover {
     background-color: #3498db;
 }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_223">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>371</width>
+        <height>641</height>
+       </rect>
       </property>
       <property name="text">
        <string/>
@@ -1974,6 +2013,32 @@ QPushButton:hover {
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_217">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>490</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_218">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>630</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_12">
      <widget class="QLabel" name="label_12">
@@ -2089,6 +2154,32 @@ QPushButton:hover {
         <x>50</x>
         <y>100</y>
         <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_219">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>560</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_220">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>630</y>
+        <width>111</width>
         <height>41</height>
        </rect>
       </property>
@@ -2377,6 +2468,32 @@ QPushButton:hover {
         <x>50</x>
         <y>100</y>
         <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_215">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>560</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_216">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>690</y>
+        <width>111</width>
         <height>41</height>
        </rect>
       </property>
