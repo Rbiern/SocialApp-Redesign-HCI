@@ -267,7 +267,7 @@ void MainWindow::handlePageChange()
              ||name == "pushButton_171" ||name == "pushButton_172" ||name == "pushButton_173" ||name == "pushButton_174" ||name == "pushButton_175"
              ||name == "pushButton_176" ||name == "pushButton_177" ||name == "pushButton_178" ||name == "pushButton_198" ||name == "pushButton_201"
              ||name == "pushButton_215" ||name == "pushButton_216" ||name == "pushButton_217" ||name == "pushButton_218" ||name == "pushButton_219"
-             ||name == "pushButton_220"){
+             ||name == "pushButton_220" ||name == "pushButton_224"  ||name == "pushButton_225" ){
         ui->stackedWidget->setCurrentWidget(ui->page_36);
     }
     //Dialog keyboard
