@@ -21,7 +21,7 @@ MainWindow::MainWindow(QWidget *parent)
     for (QPushButton* button : buttons) {
         QString name = button->objectName();
         if (!excludedNames.contains(name)) {
-            button->setStyleSheet("QPushButton { background-color: rgba(255, 255, 255, 50); color: white; border: none; border-radius: 10px; }");
+            button->setStyleSheet("QPushButton { background-color: rgba(255, 255, 255, 0); color: white; border: none; border-radius: 10px; }");
         }
          connect(button, &QPushButton::clicked, this, &MainWindow::handlePageChange);
     }
@@ -67,12 +67,14 @@ void MainWindow::handlePageChange()
     //HomePage
     } else if (name == "pushButton_7"|| name == "pushButton_14"|| name == "pushButton_23"|| name == "pushButton_36" || name == "pushButton_39" || name == "pushButton_40"
                || name == "pushButton_41" || name == "pushButton_42" || name == "pushButton_43" || name == "pushButton_81" || name == "pushButton_88" || name == "pushButton_95"
-                || name == "pushButton_102") {
+                || name == "pushButton_102" || name == "pushButton_117" || name == "pushButton_125"|| name == "pushButton_126" || name == "pushButton_129"|| name == "pushButton_132" ) {
         ui->stackedWidget->setCurrentWidget(ui->page);
     }
     //Camera Page
     else if (name == "pushButton_3"|| name == "pushButton_9"|| name == "pushButton_16" || name == "pushButton_25" || name == "pushButton_83" || name == "pushButton_90"
-             || name == "pushButton_97"|| name == "pushButton_104") {
+             || name == "pushButton_97"|| name == "pushButton_104"|| name == "pushButton_114" || name == "pushButton_118" || name == "pushButton_124"
+             || name == "pushButton_136" || name == "pushButton_138" || name == "pushButton_141" || name == "pushButton_135" || name == "pushButton_147"
+             || name == "pushButton_148" || name == "pushButton_149" || name == "pushButton_151" || name == "pushButton_152" || name == "pushButton_153" || name == "pushButton_154") {
         ui->stackedWidget->setCurrentWidget(ui->page_7);
     }//Story Page
     else if (name == "pushButton_4"|| name == "pushButton_10"|| name == "pushButton_17" || name == "pushButton_26" || name == "pushButton_84" || name == "pushButton_91"
@@ -171,5 +173,35 @@ void MainWindow::handlePageChange()
     else if (name == "pushButton_10" || name == "pushButton_109"|| name == "pushButton_101"){
         ui->stackedWidget->setCurrentWidget(ui->page_26);
     }
+    //Pop effects
+    else if (name == "pushButton_113" || name == "pushButton_122"){
+        ui->stackedWidget->setCurrentWidget(ui->page_28);
+    }
+    //Photo effects
+    else if (name == "pushButton_116" || name == "pushButton_119"){
+        ui->stackedWidget->setCurrentWidget(ui->page_30);
+    }
+    //Art Deco effects
+    else if (name == "pushButton_123"){
+        ui->stackedWidget->setCurrentWidget(ui->page_29);
+    }
+    //Art Deco filter page
+    else if (name == "pushButton_120" || name == "pushButton_130"|| name == "pushButton_137"|| name == "pushButton_139"||
+             name == "pushButton_142" || name == "pushButton_143" || name == "pushButton_144" || name == "pushButton_145"){
+        ui->stackedWidget->setCurrentWidget(ui->page_31);
+    }
+    //Basic User library
+    else if (name == "pushButton_115" || name == "pushButton_121" || name == "pushButton_146" || name == "pushButton_150"){
+        ui->stackedWidget->setCurrentWidget(ui->page_33);
+    }
+    //Art deco background user library
+    else if (name == "pushButton_128" || name == "pushButton_131"){
+        ui->stackedWidget->setCurrentWidget(ui->page_34);
+    }
+    //Art deco background filter choose
+    else if (name == "pushButton_127"){
+        ui->stackedWidget->setCurrentWidget(ui->page_32);
+    }
 }
+
 

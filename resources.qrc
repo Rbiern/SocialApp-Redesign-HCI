@@ -24,6 +24,14 @@
         <file>images/Ruffles following.png</file>
         <file>images/Sabansoke Followers.png</file>
         <file>images/sabansoke following.png</file>
+        <file>images/camera1.png</file>
+        <file>images/camera1-1.png</file>
+        <file>images/camera1-2.png</file>
+        <file>images/camera1-3.png</file>
+        <file>images/camera2.png</file>
+        <file>images/camera2-1.png</file>
+        <file>images/Art Deco Favorite filter.png</file>
+        <file>images/Favorite Filter.png</file>
     </qresource>
     <qresource prefix="/">
         <file>images/qr1.png</file>
