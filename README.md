@@ -44,7 +44,9 @@ The social media platform **Instagram** has a large scope, so for this project, 
 Here is a walkthrough to help you navigate through the redesigned app.
 
 ![Filters](images/msg.gif)
-![Filters](images/filter.gif)
+
+![Filters](images/filters.gif)
+
 ![Filters](images/stories.gif)
 
 ## 
