@@ -9,6 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     ui->stackedWidget->setCurrentIndex(0);
+    setWindowTitle("Social Media");
 
     originalImage.append(QPixmap(":/images/images/StoryPage.png"));
     scrollImages.append(QPixmap(":/images/images/right1.png"));
