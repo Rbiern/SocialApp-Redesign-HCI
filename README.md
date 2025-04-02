@@ -41,7 +41,7 @@ Downloaded Qt Creater IDE: https://www.qt.io/download-dev
 
 ## The Redesign Guide  
 The social media platform **Instagram** has a large scope, so for this project, we focused on redesigning its **core features**.  
-Here is a walkthrough to help you navigate through the redesigned app.
+Here is a walkthrough to help you navigate through the redesigned app and how you what is clickable.
 
 ![Filters](images/msg.gif)
 
